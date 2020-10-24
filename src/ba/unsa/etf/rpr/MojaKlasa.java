@@ -17,7 +17,7 @@ public class MojaKlasa {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.print("Pozdrav svima, ovo je moj prvi Java projekat.\nUnesite broj n: ");
+        System.out.print("Pozdrav, ovo je moj prvi Java projekat.\nUnesite broj n: ");
         Scanner ulaz=new Scanner(System.in);
         int n=ulaz.nextInt();
         System.out.print("Brojevi izmedju 1-"+n+" koji su djeljivi sa sumom svojih cifara su: ");
